@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Classinfo</string>
+    <string-array name="Title">
+        <item> Timetable </item>
+        <item> Subjects </item>
+        <item> Faculty </item>
+    </string-array>
+
+    <string-array name="Description">
+        <item> Description 1 </item>
+        <item> Description 2 </item>
+        <item> Description 3 </item>
+    </string-array>
+
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>Mathematics</item>
+        <item>Break </item>
+        <item>English</item>
+        <item>Semiconductor Physics</item>
+        <item>Lunch Break</item>
+        <item>English Lab</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item>9.20AM - 10.10AM </item>
+        <item>10.10AM - 10.30AM </item>
+        <item>10.30AM - 11.20AM </item>
+        <item>11.20AM - 12.10PM </item>
+        <item>12.10PM - 1.30PM </item>
+        <item>1.30PM - 5.00PM </item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>Chemistry</item>
+        <item>Break </item>
+        <item>Mathematics </item>
+        <item>Branch Specific Course</item>
+        <item>Lunch Break</item>
+    </string-array>
+
+    <string-array name="time2">
+        <item>9.20AM - 10.10AM </item>
+        <item>10.10AM - 10.30AM </item>
+        <item>10.30AM - 11.20AM </item>
+        <item>11.20AM - 12.10PM </item>
+        <item>12.10PM - 1.30PM </item>
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>Branch Specific Course</item>
+        <item>Chemistry</item>
+        <item>Break </item>
+        <item>Semiconductor Physics</item>
+        <item>Mathematics </item>
+        <item>Lunch Break</item>
+        <item>Engineering Graphics</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item>8.30AM - 9.20AM </item>
+        <item>9.20AM - 10.10AM </item>
+        <item>10.10AM - 10.30AM </item>
+        <item>10.30AM - 11.20AM </item>
+        <item>11.20AM - 12.10PM </item>
+        <item>12.10PM - 1.30PM </item>
+        <item>1.30PM - 5.00PM </item>
+    </string-array>
+
+
+    <string-array name="Thursday">
+        <item>Branch Specific Course</item>
+        <item>Break </item>
+        <item>Chemistry</item>
+        <item>English</item>
+        <item>Lunch Break</item>
+    </string-array>
+
+    <string-array name="time4">
+        <item>9.20AM - 10.10AM </item>
+        <item>10.10AM - 10.30AM </item>
+        <item>10.30AM - 11.20AM </item>
+        <item>11.20AM - 12.10PM </item>
+        <item>12.10PM - 1.30PM </item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item>Mathematics </item>
+        <item>English</item>
+        <item>Break </item>
+        <item>Semiconductor Physics</item>
+        <item>Lunch Break</item>
+        <item>Chemistry Lab</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item>8.30AM - 9.20AM </item>
+        <item>9.20AM - 10.10AM </item>
+        <item>10.10AM - 10.30AM </item>
+        <item>10.30AM - 11.20AM </item>
+        <item>12.10PM - 1.30PM </item>
+        <item>1.30PM - 5.00PM </item>
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
