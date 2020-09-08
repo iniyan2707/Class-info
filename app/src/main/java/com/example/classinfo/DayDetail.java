@@ -142,8 +142,6 @@ public class DayDetail extends AppCompatActivity {
             time.setText(timeArray[position]);
             letterImageView.setOval(true);
             letterImageView.setLetter(subjectArray[position].charAt(0));
-
-
             return convertView;
 
 

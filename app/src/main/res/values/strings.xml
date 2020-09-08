@@ -21,102 +21,103 @@
     </string-array>
 
     <string-array name="Monday">
+        <item>Signals and Systems</item>
         <item>Mathematics</item>
-        <item>Break </item>
-        <item>English</item>
-        <item>Semiconductor Physics</item>
-        <item>Lunch Break</item>
-        <item>English Lab</item>
+        <item>Networks and Protocols</item>
+        <item>Digital Circuits and Systems</item>
+        <item>Devices and Networks Lab</item>
     </string-array>
 
     <string-array name="time1">
-        <item>9.20AM - 10.10AM </item>
-        <item>10.10AM - 10.30AM </item>
+        <item>9.30AM - 10.20AM </item>
         <item>10.30AM - 11.20AM </item>
-        <item>11.20AM - 12.10PM </item>
-        <item>12.10PM - 1.30PM </item>
-        <item>1.30PM - 5.00PM </item>
+        <item>11.30AM - 12.20PM </item>
+        <item>12.30PM - 1.20PM </item>
+        <item>3.00PM - 5.50PM </item>
     </string-array>
 
     <string-array name="Tuesday">
-        <item>Chemistry</item>
-        <item>Break </item>
-        <item>Mathematics </item>
-        <item>Branch Specific Course</item>
-        <item>Lunch Break</item>
+        <item>Network Analysis and Synthesis</item>
+        <item>Signals and Systems</item>
+        <item>Mathematics</item>
+        <item>Networks and Protocols</item>
+        <item>Electrodynamics and EM Waves</item>
     </string-array>
 
     <string-array name="time2">
-        <item>9.20AM - 10.10AM </item>
-        <item>10.10AM - 10.30AM </item>
+        <item>9.30AM - 10.20AM </item>
         <item>10.30AM - 11.20AM </item>
-        <item>11.20AM - 12.10PM </item>
-        <item>12.10PM - 1.30PM </item>
+        <item>11.30AM - 12.20PM </item>
+        <item>12.30PM - 1.20PM </item>
+        <item>3.00PM - 3.50PM </item>
     </string-array>
 
     <string-array name="Wednesday">
-        <item>Branch Specific Course</item>
-        <item>Chemistry</item>
-        <item>Break </item>
-        <item>Semiconductor Physics</item>
-        <item>Mathematics </item>
-        <item>Lunch Break</item>
-        <item>Engineering Graphics</item>
+        <item>Electrodynamics and EM Waves</item>
+        <item>Network Analysis and Synthesis</item>
+        <item>Signals and Systems</item>
+        <item>Mathematics</item>
     </string-array>
 
     <string-array name="time3">
-        <item>8.30AM - 9.20AM </item>
-        <item>9.20AM - 10.10AM </item>
-        <item>10.10AM - 10.30AM </item>
+        <item>9.30AM - 10.20AM </item>
         <item>10.30AM - 11.20AM </item>
-        <item>11.20AM - 12.10PM </item>
-        <item>12.10PM - 1.30PM </item>
-        <item>1.30PM - 5.00PM </item>
+        <item>11.30AM - 12.20PM </item>
+        <item>12.30PM - 1.20PM </item>
     </string-array>
 
 
     <string-array name="Thursday">
-        <item>Branch Specific Course</item>
-        <item>Break </item>
-        <item>Chemistry</item>
-        <item>English</item>
-        <item>Lunch Break</item>
+        <item>Digital Circuits and Systems</item>
+        <item>Electrodynamics and EM Waves</item>
+        <item>Network Analysis and Synthesis</item>
+        <item>Signals and Systems</item>
+        <item>Digital Electronics Lab</item>
     </string-array>
 
     <string-array name="time4">
-        <item>9.20AM - 10.10AM </item>
-        <item>10.10AM - 10.30AM </item>
+        <item>9.30AM - 10.20AM </item>
         <item>10.30AM - 11.20AM </item>
-        <item>11.20AM - 12.10PM </item>
-        <item>12.10PM - 1.30PM </item>
+        <item>11.30AM - 12.20PM </item>
+        <item>12.30PM - 1.20PM </item>
+        <item>3.00PM - 5.50PM </item>
     </string-array>
 
     <string-array name="Friday">
-        <item>Mathematics </item>
-        <item>English</item>
-        <item>Break </item>
-        <item>Semiconductor Physics</item>
-        <item>Lunch Break</item>
-        <item>Chemistry Lab</item>
+        <item>Networks and Protocols</item>
+        <item>Digital Circuits and Systems</item>
+        <item>Electrodynamics and EM Waves</item>
+        <item>Network Analysis and Synthesis</item>
     </string-array>
 
     <string-array name="time5">
-        <item>8.30AM - 9.20AM </item>
-        <item>9.20AM - 10.10AM </item>
-        <item>10.10AM - 10.30AM </item>
+        <item>9.30AM - 10.20AM </item>
         <item>10.30AM - 11.20AM </item>
-        <item>12.10PM - 1.30PM </item>
-        <item>1.30PM - 5.00PM </item>
+        <item>11.30AM - 12.20PM </item>
+        <item>12.30PM - 1.20PM </item>
     </string-array>
 
+    <string-array name="Subjects">
+        <item>Mathematics</item>
+        <item>Signals and Systems</item>
+        <item>Network Analysis and Synthesis</item>
+        <item>Electrodynamics and EM Waves</item>
+        <item>Digital Circuits and Systems</item>
+        <item>Networks and Protocols</item>
+    </string-array>
 
-
-
-
-
-
-
-
-
+    <string-array name="Mathematics">
+        <item>Real Analysis: Real number system. Sets, relations and functions. Properties of real numbers.Sequences. Cauchy sequences. Bolzano-Weierstrass and Heine-Borel properties.</item>
+        <item>Reimann integral. Mean value theorems. Sequences and series of functions. Pointwise and uniform convergence. Power series and Taylor series.</item>
+        <item>Probability Theory: Random Variable and random vectors - Distributions and densities. – Functions of one and two random variables. Moments and characteristic functions</item>
+        <item>Random processes - Strict sense and wide sense stationary processes - Covariance functions and their properties - Spectral representation - Wiener-Khinchine theorem.</item>
+        <item>Gaussian processes – Poisson processes - Lowpass and Bandpass noise representations.</item>
+        <item>1. W.Rudin, “Introduction to Principles of Mathematical Analysis”, McGraw-Hill International Editions, Third Edition, 1976.
+\n2. Davenport,” Probability and Random Processes for Scientist and Engineers”, McGraw-Hill, 1970.
+\n3. Papoulis. A.,” Probability, Random variables and Stochastic Processes”, McGraw Hill, 2002.</item>
+        <item>1. Kreyszig.E. “Advanced Engineering Mathematics”, John Wiley, 1999.
+\n2. S.C. Malik, Savita Arora, “Mathematical Analysis”, New Age International Ltd, 4th Edition, 2012.
+\n3. G.B.Gustafson and C.H. Wilcox, “Advanced Engineering Mathematics”, Springer Verlag, 1998.</item>
+    </string-array>
 
 </resources>
