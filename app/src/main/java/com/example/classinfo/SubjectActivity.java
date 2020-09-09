@@ -6,6 +6,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -23,6 +25,8 @@ public class SubjectActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private ListView listView;
     private String[] subjects;
+    public static SharedPreferences subjectPreferences;
+    public static String Sub_Pref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,7 @@ public class SubjectActivity extends AppCompatActivity {
     {
         toolbar =(Toolbar) findViewById(R.id.ToolbarSubject);
         listView =(ListView) findViewById(R.id.lvSubject);
+        subjectPreferences= getSharedPreferences("Subjects",MODE_PRIVATE);
     }
     private void initToolBar()
     {
@@ -55,12 +60,41 @@ public class SubjectActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 switch (position)
                 {
-                    case 0:break;
-                    case 1:break;
-                    case 2:break;
-                    case 3:break;
-                    case 4:break;
-                    case 5:break;
+                    case 0:{
+                        subjectPreferences.edit().putString(Sub_Pref,"Mathematics").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;}
+                    case 1:{
+                        subjectPreferences.edit().putString(Sub_Pref,"Signals and Systems").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case 2:{
+                        subjectPreferences.edit().putString(Sub_Pref,"Network Analysis and Synthesis").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;
+                    }
+
+                    case 3:{ subjectPreferences.edit().putString(Sub_Pref,"Electrodynamics and EM Waves").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;
+                    }
+                    case 4:{subjectPreferences.edit().putString(Sub_Pref,"Digital Circuits and Systems").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;
+
+                    }
+                    case 5:{subjectPreferences.edit().putString(Sub_Pref,"Networks and Protocols").apply();
+                        Intent intent=new Intent(SubjectActivity.this,Syllabus.class);
+                        startActivity(intent);
+                        break;
+
+                    }
 
                 }
             }

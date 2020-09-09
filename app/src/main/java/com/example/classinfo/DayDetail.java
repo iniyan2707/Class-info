@@ -22,16 +22,7 @@ public class DayDetail extends AppCompatActivity {
 
     private Toolbar toolbar;
     private ListView listView;
-    public static String[] Monday;
-    public static String[] Tuesday;
-    public static String[] Wednesday;
-    public static String[] Thursday;
-    public static String[] Friday;
-    public static String[] Time1;
-    public static String[] Time2;
-    public static String[] Time3;
-    public static String[] Time4;
-    public static String[] Time5;
+
     private String[] PreferredDay;
     private String[] PreferredTime;
 
@@ -58,35 +49,25 @@ public class DayDetail extends AppCompatActivity {
 
     private void setupListView()
     {
-        Monday = getResources().getStringArray(R.array.Monday);
-        Tuesday = getResources().getStringArray(R.array.Tuesday);
-        Wednesday = getResources().getStringArray(R.array.Wednesday);
-        Thursday = getResources().getStringArray(R.array.Thursday);
-        Friday = getResources().getStringArray(R.array.Friday);
 
-        Time1 = getResources().getStringArray(R.array.time1);
-        Time2 = getResources().getStringArray(R.array.time2);
-        Time3 = getResources().getStringArray(R.array.time3);
-        Time4 = getResources().getStringArray(R.array.time4);
-        Time5 = getResources().getStringArray(R.array.time5);
 
         String selected_day = WeekActivity.sharedPreferences.getString(WeekActivity.SEL_DAY, null);
         if(selected_day.equalsIgnoreCase("Monday")){
-            PreferredDay = Monday;
-            PreferredTime = Time1;
+            PreferredDay = getResources().getStringArray(R.array.Monday);
+            PreferredTime = getResources().getStringArray(R.array.time1);
         }else if(selected_day.equalsIgnoreCase("Tuesday")){
-            PreferredDay = Tuesday;
-            PreferredTime = Time2;
+            PreferredDay = getResources().getStringArray(R.array.Tuesday);
+            PreferredTime = getResources().getStringArray(R.array.time2);
         }else if(selected_day.equalsIgnoreCase("Wednesday")){
-            PreferredDay = Wednesday;
-            PreferredTime = Time3;
+            PreferredDay = getResources().getStringArray(R.array.Wednesday);
+            PreferredTime = getResources().getStringArray(R.array.time3);
         }else if(selected_day.equalsIgnoreCase("Thursday")){
-            PreferredDay = Thursday;
-            PreferredTime = Time4;
+            PreferredDay = getResources().getStringArray(R.array.Thursday);
+            PreferredTime = getResources().getStringArray(R.array.time4);
         }else
             {
-            PreferredDay = Friday;
-            PreferredTime = Time5;
+                PreferredDay = getResources().getStringArray(R.array.Friday);
+                PreferredTime = getResources().getStringArray(R.array.time5);
         }
         SimpleAdapter simpleAdapter = new SimpleAdapter(DayDetail.this, PreferredDay, PreferredTime);
         listView.setAdapter(simpleAdapter);
