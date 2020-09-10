@@ -113,11 +113,11 @@
         <item>Random processes - Strict sense and wide sense stationary processes - Covariance functions and their properties - Spectral representation - Wiener-Khinchine theorem.</item>
         <item>Gaussian processes – Poisson processes - Lowpass and Bandpass noise representations.</item>
         <item>1. W.Rudin, “Introduction to Principles of Mathematical Analysis”, McGraw-Hill International Editions, Third Edition, 1976.
-\n2. Davenport,” Probability and Random Processes for Scientist and Engineers”, McGraw-Hill, 1970.
-\n3. Papoulis. A.,” Probability, Random variables and Stochastic Processes”, McGraw Hill, 2002.</item>
+            \n2. Davenport,” Probability and Random Processes for Scientist and Engineers”, McGraw-Hill, 1970.
+            \n3. Papoulis. A.,” Probability, Random variables and Stochastic Processes”, McGraw Hill, 2002.</item>
         <item>1. Kreyszig.E. “Advanced Engineering Mathematics”, John Wiley, 1999.
-\n2. S.C. Malik, Savita Arora, “Mathematical Analysis”, New Age International Ltd, 4th Edition, 2012.
-\n3. G.B.Gustafson and C.H. Wilcox, “Advanced Engineering Mathematics”, Springer Verlag, 1998.</item>
+            \n2. S.C. Malik, Savita Arora, “Mathematical Analysis”, New Age International Ltd, 4th Edition, 2012.
+            \n3. G.B.Gustafson and C.H. Wilcox, “Advanced Engineering Mathematics”, Springer Verlag, 1998.</item>
     </string-array>
 
     <string-array name="Signals_and_Systems">
@@ -133,6 +133,56 @@
              \n3. S.S.Soliman and M.D.Srinath, “Continuous and Discrete Signals and Systems”, Prentice- Hall, 1990.</item>
     </string-array>
 
+    <string-array name="Network_Analysis_and_Synthesis">
+        <item>Network concept. Elements and sources. Kirchhoff’s laws. Tellegen’s theorem. Network equilibrium equations. Node and Mesh method. Source superposition. Thevenin’s and Norton’s theorems. Network graphs.</item>
+        <item>First and second order networks. State equations. Transient response. Network functions. Determination of the natural frequencies and mode vectors from network functions.</item>
+        <item>Sinusoidal steady-state analysis. Maximum power-transfer theorem. Resonance. Equivalent and dual networks. Design of equalizers.</item>
+        <item>Two-port network parameters. Interconnection of two port networks. Barlett’s bisection theorem. Image and Iterative parameters. Design of attenuators.</item>
+        <item>Two-terminal network synthesis. Properties of Hurwitz polynomial and Positive real function. Synthesis of LC, RC and RL Networks, Foster Forms and Cauer Forms.</item>
+        <item>1. Hayt W. H., Kemmerly J. E. and Durbin S. M., “Engineering Circuit Analysis”, 6th Ed., TataMcGraw-Hill Publishing Company Ltd., 2008.
+              \n2. F.F. Kuo, “Network analysis and Synthesis”, Wiley International Edition, 2008.</item>
+        <item>1. Valkenberg V., “Network Analysis”, 3rd Ed., Prentice Hall International Edition, 2007.
+              \n2. B.S.Nair and S.R.Deepa, “Network analysis and Synthesis”, Elsevier, 2012.</item>
+    </string-array>
+
+    <string-array name="Electrodynamics_and_EM_Waves">
+        <item>Electrostatics. Coulomb’s law. Gauss’s law and applications. Electric potential. Poisson’s and Laplace equations. Method of images. Multipole Expansion.</item>
+        <item>Electrostatic fields in matter. Dielectrics and electric polarization. Capacitors with dielectric substrates. Linear dielectrics. Force and energy in dielectric systems.</item>
+        <item>Magneto-statics. Magnetic fields of steady currents. Biot-Savart’s and Ampere’s laws. Magnetic vector potential. Magnetic properties of matter.</item>
+        <item>Electrodynamics. Flux rule for motional emf. Faraday’s law. Self and mutual inductances. Maxwell’s Equations. Electromagnetic Boundary conditions. Poynting theorem.</item>
+        <item>Electromagnetic wave propagation. Uniform plane waves. Wave polarization. Waves in matter. Reflection and transmission at boundaries. Propagation in an ionized medium.</item>
+        <item>1. D.J.Griffiths, “Introduction to Electrodynamics (3/e)”, PHI, 2001
+             \n2. E.C. Jordan and G. Balmain, “Electromagnetic Waves and Radiating Systems”, PHI, 1995.</item>
+        <item>1. W.H.Hayt, “Engineering Electromagnetics, (7/e)”, McGraw Hill, 2006.
+              \n2. D.K.Cheng, “Field and Wave Electromagnetics, (2/e)”, Addison Wesley, 1999.
+              \n3. M.N.O.Sadiku, ”Principles of Electromagnetics, (4/e)”, Oxford University Press, 2011.</item>
+    </string-array>
+
+    <string-array name="Digital_Circuits_and_Systems">
+        <item>Review of number systems-representation-conversions, error detection and error correction. Review of Boolean algebra- theorems, sum of product and product of sum simplification, canonical forms-min term and max term, Simplification of Boolean expressions-Karnaugh map, completely and incompletely specified functions, Implementation of Boolean expressions using universal gates.</item>
+        <item>Combinational logic circuits- adders, subtractors, BCD adder, ripple carry look ahead adders, parity generator, decoders, encoders, multiplexers, de-multiplexers, Realization of Boolean expressions- using decoders-using multiplexers. Memories – ROM- organization, expansion. PROMs. Types of RAMs – Basic structure, organization, Static and dynamic RAMs, PLDs, PLAs.</item>
+        <item>Sequential circuits – latches, flip flops, edge triggering, asynchronous inputs. Shift registers, Universal shift register, applications. Binary counters – Synchronous and asynchronous up/down counters, mod-N counter, Counters for random sequence.</item>
+        <item>Synchronous circuit analysis and design: structure and operation, analysis-transition equations, state tables and state diagrams, Modelling- Moore machine and Mealy machine- serial binary adder, sequence recogniser, state table reduction, state assignment. Hazard; Overview and comparison of logic families.</item>
+        <item>Introduction to Verilog HDL, Structural, Dataflow and behavioural modelling of combinational and sequential logic circuits.</item>
+        <item>1. Wakerly J F, “Digital Design: Principles and Practices, Prentice-Hall”, 2nd Ed., 2002.
+            \n2. D. D. Givone, “Digital Principles and Design”, Tata Mc-Graw Hill, New Delhi, 2003.</item>
+        <item>1. T. L. Floyd and Jain,”Digital Fundamentals”, 8th ed., Pearson Education, 2003.
+            \n2. S.Brown and Z.Vranesic, “Fundamentals of Digital Logic with Verilog Design”, Tata Mc-Graw Hill, 2008.</item>
+    </string-array>
+
+    <string-array name="Networks_and_Protocols">
+        <item>Network Components, Topologies, Network hardware and software, Network Models: OSI Model and TCP/IP Protocol stack, HTTP FTP, SMTP, POP, SNMP, DNS, Socket programming with TCP and UDP.</item>
+        <item>Transport Layer services, UDP, TCP, SCTP, Principles of reliable data transfer, Flow control, Congestion Control, Quality of Service.</item>
+        <item>Network Layer services, Datagram and Virtual circuit service, DHCP, IPV4, IPV6, ICMP, Unicast routing protocols: DV, LS and Path vector routing, Multicast routing.</item>
+        <item>Data Link Layer services, Overview of Circuit and Packet switches, ARP, Data link control: HDLC and PPP, Multiple access protocols, Wireless LAN, Comparison wired and wireless LAN.</item>
+        <item>Network security threats, Cryptography, Security in the Internet: IP Security and Firewalls, Multimedia: Streaming stored video/ audio, RTP, Network Troubleshooting.</item>
+        <item>1. J.F.Kurose and K.W.Ross, “Computer Networking: A Top-Down Approach featuring the Internet”, Pearson, 5th edition, 2010.
+            \n2. B.A. Forouzan,” Data Communications and Networking”, Tata McGraw- Hill, 4th edition, 2006</item>
+        <item>1. W.Stallings, “Data and Computer Communications”, PHI, 9th edition, 2011.
+            \n2. W.Stallings, “Cryptography and Network Security”, Pearson, 5th edition, 2011.
+            \n3. A.S.Tanenbaum and D.J. Wetherall, “Computer Networks”, Pearson, 5th edition, 2014.</item>
+    </string-array>
+
     <string-array name="titles">
         <item>Unit 1</item>
         <item>Unit 2</item>
@@ -141,6 +191,65 @@
         <item>Unit 5</item>
         <item>Text Books</item>
         <item>Reference Books</item>
+    </string-array>
+
+    <string-array name="Faculty_name">
+        <item>Dr.Abhijit Das</item>
+        <item>Dr.P.Palanisamy</item>
+        <item>Dr.Ashish Patil</item>
+        <item>Dr.P.Muthuchidambaranathan</item>
+        <item>Dr.G.Lakshmi Narayanan</item>
+        <item>Dr.B.Rebekka</item>
+        <item>Dr.G.Thavasi Raja</item>
+        <item>Ms.R.K.Kavitha</item>
+    </string-array>
+
+    <string-array name="Dr.AbhijitDas">
+        <item>8148264183</item>
+        <item>abhijit@nitt.edu</item>
+        <item>Mathematics</item>
+    </string-array>
+
+    <string-array name="Dr.P.Palanisamy">
+        <item>9486001111</item>
+        <item>palan@nitt.edu</item>
+        <item>Signals and Systems</item>
+    </string-array>
+
+    <string-array name="Dr.AshishPatil">
+        <item>8148264183</item>
+        <item>abhijit@nitt.edu</item>
+        <item>Network Analysis and Synthesis</item>
+    </string-array>
+
+    <string-array name="Dr.P.Muthuchidambaranathan">
+        <item>8148264183</item>
+        <item>muthuc@nitt.edu</item>
+        <item>Electrodynamics and EM Waves</item>
+    </string-array>
+
+    <string-array name="Dr.G.LakshmiNarayanan">
+        <item>8148264183</item>
+        <item>laksh@nitt.edu</item>
+        <item>Digital Circuits and Systems</item>
+    </string-array>
+
+    <string-array name="Dr.B.Rebekka">
+        <item>8148264183</item>
+        <item>rebekka@nitt.edu</item>
+        <item>Networks and Protocols</item>
+    </string-array>
+
+    <string-array name="Dr.G.ThavasiRaja">
+        <item>9443485798</item>
+        <item>thavasi@nitt.edu, g.thavasiraja@gmail.com</item>
+        <item>Digital Electronics Lab</item>
+    </string-array>
+
+    <string-array name="Ms.R.K.Kavitha">
+        <item>8148264132</item>
+        <item>rkkavitha@nitt.edu</item>
+        <item>Devices and Networks Lab</item>
     </string-array>
 
 </resources>

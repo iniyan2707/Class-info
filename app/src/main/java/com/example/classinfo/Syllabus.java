@@ -52,9 +52,25 @@ public class Syllabus extends AppCompatActivity {
         {
             syllabus=getResources().getStringArray(R.array.Mathematics);
         }
-        else
+        else if(subject_selected.equalsIgnoreCase("Signals and Systems"))
         {
             syllabus=getResources().getStringArray(R.array.Signals_and_Systems);
+        }
+        else if(subject_selected.equalsIgnoreCase("Network Analysis and Synthesis"))
+        {
+            syllabus=getResources().getStringArray(R.array.Network_Analysis_and_Synthesis);
+        }
+        else if(subject_selected.equalsIgnoreCase("Electrodynamics and EM Waves"))
+        {
+            syllabus=getResources().getStringArray(R.array.Electrodynamics_and_EM_Waves);
+        }
+        else if(subject_selected.equalsIgnoreCase("Digital Circuits and Systems"))
+        {
+            syllabus=getResources().getStringArray(R.array.Digital_Circuits_and_Systems);
+        }
+        else
+        {
+            syllabus=getResources().getStringArray(R.array.Networks_and_Protocols);
         }
 
         SyllabusAdapter syllabusAdapter=new SyllabusAdapter(this,titles,syllabus);
