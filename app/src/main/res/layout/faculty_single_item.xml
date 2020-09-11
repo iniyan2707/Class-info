@@ -22,7 +22,7 @@
             android:layout_alignTop="@id/ivLetterFaculty"
             android:layout_toRightOf="@+id/ivLetterFaculty"
             android:text="Faculty"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>

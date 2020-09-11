@@ -24,7 +24,7 @@ public class FacultyActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private ListView listView;
-    private SharedPreferences sharedPreferences;
+    public static SharedPreferences sharedPreferences;
     public static String SEL_Faculty;
 
 
@@ -62,41 +62,41 @@ public class FacultyActivity extends AppCompatActivity {
                 {
                     case 0: {
                         startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty, "Dr.Abhijit Das").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 0).apply();
                         break;
                     }
                     case 1:
                     {    startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty,"Dr.P.Palanisamy").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 1).apply();
                         break;
                     }
                     case 2:
                     {    startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty, "Dr.Ashish Patil").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 2).apply();
                         break;
                     }
                     case 3: {  startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty, "Dr.P.Muthuchidambaranathan").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 3).apply();
                         break;
                     }
                     case 4:
                     {   startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty,"Dr.G.Lakshmi Narayanan").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 4).apply();
                         break;
                     }
                     case 5:
                     {   startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty,"Dr.B.Rebekka").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 5).apply();
                         break;
                     }
                     case 6:
                     {   startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty,"Dr.G.Thavasi Raja").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 6).apply();
                         break;
                     }
                     case 7:
                     {   startActivity(new Intent(FacultyActivity.this,FacultyDetails.class));
-                        sharedPreferences.edit().putString(SEL_Faculty,"Ms.R.K.Kavitha").apply();
+                        sharedPreferences.edit().putInt(SEL_Faculty, 7).apply();
                         break;
                     }
                     default:break;
@@ -156,4 +156,6 @@ public class FacultyActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
 }
