@@ -23,6 +23,7 @@
             android:layout_toRightOf="@+id/ivDay"
             android:text="Subjects"
             android:textSize="22dp"
+            android:textColor="@color/black"
             android:textStyle="bold" />
 
         <TextView
@@ -34,6 +35,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginEnd="13dp"
             android:layout_marginRight="13dp"
+            android:textStyle="bold"
             android:text="Time" />
 
     </RelativeLayout>

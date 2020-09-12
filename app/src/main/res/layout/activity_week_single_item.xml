@@ -22,7 +22,8 @@
             android:layout_alignTop="@id/ivLetter"
             android:layout_toRightOf="@+id/ivLetter"
             android:text="Days"
-            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </RelativeLayout>

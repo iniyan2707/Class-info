@@ -33,6 +33,7 @@
             android:layout_below="@+id/line"
             android:layout_marginLeft="10dp"
             android:text="Syllabus"
+            android:textColor="@color/grey"
             android:textSize="16sp" />
 
 
